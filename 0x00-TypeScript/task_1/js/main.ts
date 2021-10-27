@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/class-name-casing */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 interface Teacher {
   readonly firstName: string;
@@ -20,7 +21,7 @@ const teacher3: Teacher = {
 
 console.log(teacher3);
 
-// Directors Interface
+// Directors Interface - Task 2
 interface Directors extends Teacher {
   numberOfReports: number;
 }
@@ -34,3 +35,15 @@ const director1: Directors = {
 };
 
 console.log(director1);
+
+// function printTeacher - Task 3
+interface printTeacherFunction {
+  (firstName: string, lastName: string): string;
+}
+
+export const printTeacher: printTeacherFunction = (firstName: string, lastName: string): string => {
+  return `${firstName[0]}. ${lastName}`;
+}
+
+//example
+console.log(printTeacher("John", "Doe"));

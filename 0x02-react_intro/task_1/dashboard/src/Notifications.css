@@ -3,6 +3,6 @@
 }
 
 .Notifications {
-  border: 1px --colorRed-hbn;
+  border: 1px solid var(--colorRed-hbn);
   padding: 20px;
 }

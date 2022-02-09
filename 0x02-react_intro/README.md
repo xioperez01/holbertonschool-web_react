@@ -21,8 +21,13 @@ Read or watch:
 - How to use Enzyme’s Shadow rendering to test your application
 - How to use React with Webpack & Babel
 
-# Enviroment
-- OS: Ubuntu 18.04 LTS 
+## Enviroment
+
+- OS: Ubuntu 18.04 LTS
 - Node 12.x.x
 - npm 6.x.x
 - Editor: Visual Studio Code
+
+## Autors 🎀
+
+Angie Pérez [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/xiommyperez)

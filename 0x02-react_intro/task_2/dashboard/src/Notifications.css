@@ -6,3 +6,10 @@
   border: 1px solid var(--colorRed-hbn);
   padding: 20px;
 }
+li[data-default] {
+  color: blue;
+}
+
+li[data-urgent] {
+  color: red;
+}

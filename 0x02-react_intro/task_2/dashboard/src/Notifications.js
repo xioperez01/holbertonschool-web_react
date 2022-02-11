@@ -10,9 +10,7 @@ export const Notifications = () => {
         style={{
           border: "none",
           backgroundColor: "white",
-          position: "absolute",
-          right: "20px",
-          top: "20px",
+          float: "right",
           cursor: "pointer",
         }}
         aria-label="close"
@@ -22,10 +20,10 @@ export const Notifications = () => {
       </button>
       <p>Here is the list of notifications</p>
       <ul>
-        <li data-default>New course available</li>
-        <li data-urgent>New resume available</li>
+        <li data-priority="default" >New course available</li>
+        <li data-priority="urgent">New resume available</li>
         <li
-          data-urgent
+          data-priority="urgent"
           dangerouslySetInnerHTML={{ __html: getLatestNotification() }}
         ></li>
       </ul>

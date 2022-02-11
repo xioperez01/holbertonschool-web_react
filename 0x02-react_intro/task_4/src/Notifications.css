@@ -1,0 +1,15 @@
+:root {
+  --colorRed-hbn: #e01d3f;
+}
+
+.Notifications {
+  border: 1px solid var(--colorRed-hbn);
+  padding: 20px;
+}
+[data-priority="default"] {
+  color: blue;
+}
+
+[data-priority="urgent"] {
+  color: red;
+}

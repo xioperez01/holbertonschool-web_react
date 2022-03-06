@@ -1,26 +1,32 @@
-# 0x05. React inline styling
+# 0x06. React state
 
 ## Resources
 
 Read or watch:
 
-- [Aphrodite](https://intranet.hbtn.io/rltoken/QXlvi2PsWUQpEfhhqTGcAw)
-- [Inline styling](https://intranet.hbtn.io/rltoken/yYqY0lZLc3KmAm5MV_MdDw)
-- [Enzyme Render](https://intranet.hbtn.io/rltoken/k7feyV9bL8NrNRK_5rNi1g)
-- [Enzyme Prop](https://intranet.hbtn.io/rltoken/yueQrkqySHKZhHWi9Myk9g)
-- [CSS Viewport](https://intranet.hbtn.io/rltoken/1C41qQn9OTYCT9DoR871fg)
-- [CSS Media queries](https://intranet.hbtn.io/rltoken/2-7F2wNcG7sZWzVR_M6iBw)
-- [CSS Animations](https://intranet.hbtn.io/rltoken/Pzvyl9EJyrWkreFvMArwCg)
+- [State and lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
+- [SetState and State callback](https://reactjs.org/docs/react-component.html#setstate)
+- [Context](https://reactjs.org/docs/context.html)
+- [Forms and Controlled components](https://reactjs.org/docs/forms.html)
+- [Lifting State Up](https://reactjs.org/docs/lifting-state-up.html)
+- [React Hooks](https://reactjs.org/docs/hooks-intro.html)
+- [Enzyme State](https://enzymejs.github.io/enzyme/docs/api/ReactWrapper/state.html)
+- [Enzyme SetState](https://enzymejs.github.io/enzyme/docs/api/ShallowWrapper/setState.html)
+- [Enzyme Instance](https://enzymejs.github.io/enzyme/docs/api/ShallowWrapper/instance.html)
+- [Enzyme Simulate](https://enzymejs.github.io/enzyme/docs/api/ShallowWrapper/simulate.html)
 
 ## Learning Objectives
 
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-- the differences between using a CSS file and inline styling
-- how to use a CSS-in-JS tool like Aphrodite
-- how to use conditions within JS to apply different styles
-- how to use responsive design and make the application show a different UI according to the screen size
-- how to create small animations within the app
+- What the state of a component or a container is
+- The lifecycle of a component
+- How to modify a state and execute code in the right order
+- What a controlled component is
+- How to use Forms in React
+- How to reuse smaller components, keep them pure, and lift its state to principal containers
+- The use of a React Hook and how to create one
+  How to test State changes with Enzyme
 
 ## Enviroment
 
